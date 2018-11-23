@@ -18,21 +18,21 @@ Exercises for the testing position.
 ## Setup for Web Automation Test
 
 * Create a directory to run the project and access to it.
-* Run npm init in the folder to create the *italic* package.json *italic* file.
-* Install the required modules with the flag *italic* --save-dev *italic* to add them to the *italic* package.json *italic*.
+* Run npm init in the folder to create the _ package.json _ file.
+* Install the required modules with the flag _ --save-dev _ to add them to the _ package.json _.
 * From the root folder run the following command:
-  * Windows: *italic* "./node_modules/.bin/webdriver-manager" update *italic*
-  * Linux : *italic* ./node_modules/.bin/webdriver-manager update *italic*
+  * Windows: _"./node_modules/.bin/webdriver-manager" update_
+  * Linux : _./node_modules/.bin/webdriver-manager update_
 * Download the data from the repository and copy the contents of the folder WAT into the root folder.
 
 ## How to run Web Automation Test
 
 * Open a console and run from the project root directory:
-  * Windows: *italic* "./node_modules/.bin/webdriver-manager" start *italic*
-  * Linux: *italic* ./node_modules/.bin/webdriver-manager start *italic*
+  * Windows: _"./node_modules/.bin/webdriver-manager" start_
+  * Linux: _./node_modules/.bin/webdriver-manager start_
 * Open another console and run from the project root directory:
-  * Windows: *italic* "./node_modules/.bin/wdio" wdio.conf.js *italic*
-  * Linux: *italic* ./node_modules/.bin/wdio wdio.conf.js *italic*
+  * Windows: _"./node_modules/.bin/wdio" wdio.conf.js_
+  * Linux: _./node_modules/.bin/wdio wdio.conf.js_
 
 ## Notes
 
