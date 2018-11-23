@@ -41,10 +41,13 @@ describe('Web Automation Test', function() {
 		browser.click('.js-language-button');
 		browser.click('#de');
 
-		var joinButtonDe = $('#joinLink');
-
 		// Assert presence of Join button
-		assert.isNotNull(joinButtonDe, 'The join button is present where language is set to de.');
+		assert.isNotNull('#joinLink', 'The join button is present where language is set to de.');
+
+		// Pause the execution of the script to finish loading the page in german
+		browser.pause(10000);
+
+		var joinButtonDe = $('#joinLink');
 		// Assert that Join button label is translated to German
 		assert.equal(joinButtonDe.getText(), 'Anmelden');
 	});
