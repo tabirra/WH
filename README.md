@@ -18,8 +18,8 @@ Exercises for the testing position.
 ## Setup for Web Automation Test
 
 * Create a directory to run the project and access to it.
-* Run npm init in the folder to create the _ package.json _ file.
-* Install the required modules with the flag _ --save-dev _ to add them to the _ package.json _.
+* Run npm init in the folder to create the _package.json_ file.
+* Install the required modules with the flag _--save-dev_ to add them to the _package.json_.
 * From the root folder run the following command:
   * Windows: _"./node_modules/.bin/webdriver-manager" update_
   * Linux : _./node_modules/.bin/webdriver-manager update_
