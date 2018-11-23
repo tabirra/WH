@@ -9,6 +9,7 @@ Exercises for the testing position.
     * webdriverio
     * webdriver-manager
     * mocha
+    * wdio-mocha-framework
     * chai
 
 ## Requirements
