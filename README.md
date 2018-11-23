@@ -38,3 +38,4 @@ Exercises for the testing position.
 
 * The first two test should work properly if connected via a Gibraltar ip adress.
 * Sometimes the test that checks if the join button is translated to German doesn't work properly if the page loading time is too high.
+* For the MacOS test it should be run following the linux instructions.
